@@ -1,18 +1,31 @@
 
 public class Person {
 	String name;
-	Brain b;
-	Heart h;
+	String department;
+	int age;
 	
-	Person(String name,String neurons,int chambers){
-		super();
+	public Person(String name , String department , int age){
 		this.name=name;
-		 b = new Brain("trllion");
-		 h = new Heart(4);
+		this.department =department;
+		this.age =age;
 	}
-	void persondetails() {
-		System.out.println("name: " + name );
-		b.nerves();
-		h.pump();
+	
+	void introduce() {
+		System.out.println("my name is " + name + " and i'm from " + department + " department " + age + " years old.");
 	}
+}
+
+class Student extends Person {
+	public Student(String name, String department, int age ,int id , String status) {
+		super(name, department, age);
+		// TODO Auto-generated constructor stub
+	}
+
+	int id;
+	String status;
+	 
+	void Study() {
+		System.out.println("it's time to study.");
+	}
+	
 }
