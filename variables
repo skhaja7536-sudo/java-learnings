@@ -1,0 +1,17 @@
+plubic class variables{
+
+    public static void main(String args[]){
+        int zoro=3(bounty hunter);
+         int zorosage=21;
+         float zoroheight=5.8;
+         string name="bounty hunter zoro ronanoa";
+         system.out.println(zoro);
+            system.out.println(zorosage);
+            system.out.println(zoroheight);
+            system.out.println(name);
+            scanner sc=new scanner(system.in);
+            system.out.println("who is zoro roanonoa");
+            zoro about=sc.nextchar();
+
+    }
+} 
