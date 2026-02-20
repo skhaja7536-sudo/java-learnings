@@ -1,0 +1,19 @@
+package loops_and_if_ellse;
+import java.util.Scanner;
+public class Strong_number {
+  public static void main(String[] args) {
+	  Scanner sc = new Scanner(System.in);
+	  int a = sc.nextInt();
+	  int square = a * a;
+	  
+	  String str1 = String.valueOf(a);
+	  String str2 = String.valueOf(square);
+	  
+	  
+	if(str2.endsWith(str1)) {
+		System.out.println("number is automorphic");
+	}else {
+		System.out.println("number is not an automorphic");
+	}
+  }
+}
